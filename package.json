@@ -1,0 +1,18 @@
+{
+  "name": "language-cscript",
+  "version": "0.0.1",
+  "description": "C-Script language support in Atom",
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "homepage": "http://github.com/philj0/language-cscript",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/philj0/language-cscript"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/philj0/language-cscript/issues"
+  }
+}
