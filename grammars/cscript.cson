@@ -5,3 +5,60 @@
 'fileTypes': [
   'crpt'
 ]
+'patterns': [
+  {
+    # Keywords
+    'match': '\\b(for|while|if|else|return)\\b'
+    'name': 'keyword.control.cscript'
+  }
+  {
+    # include
+    'match': '\\#\\b(include)\\b'
+    'name': 'keyword.include.cscript'
+  }
+  {
+    # Variable-Types
+    'match': '\\b(char|double|float|int|long|short)\\b'
+    'name': 'storage.type.cscript'
+  }
+  {
+    # kConstantVariable
+    'match': '\\bk[A-Z]\\w*\\b'
+    'name': 'constant.other.variable.mac-classic.cscript'
+  }
+  {
+    'match': '\\bi[A-Z]\\w*\\b'
+    'name': 'variable.other.readwrite.integer.mac-classic.cscript'
+  }
+  {
+    'match': '\\bs[A-Z]\\w*\\b'
+    'name': 'variable.other.readwrite.static.mac-classic.cscript'
+  }
+  {
+    'match': '\\b(true|false|TRUE|FALSE)\\b'
+    'name': 'constant.language.cscript'
+  }
+  {
+    'match': '\\b(([0-9]+\\.?[0-9]*)|(\\.[0-9]+))\\b'
+    'name': 'constant.numeric.integer.long.cscript'
+  }
+  {
+    'match': '\\/\\/.*'
+    'name': 'comment.slash.double.cscript'
+  }
+  {
+    'begin': '\\/\\*'
+    'end': '\\*\\/'
+    'name': 'comment.block.cscript'
+  }
+  {
+    'begin': '\''
+    'end': '\''
+    'name': 'string.quoted.single.cscript'
+  }
+  {
+    'begin': '\"'
+    'end': '\"'
+    'name': 'string.quoted.double.cscript'
+  }
+]
