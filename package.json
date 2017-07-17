@@ -1,5 +1,5 @@
 {
-  "name": "language-c-script",
+  "name": "language-cscript",
   "version": "0.3.0",
   "description": "C-Script language support in Atom",
   "engines": {
